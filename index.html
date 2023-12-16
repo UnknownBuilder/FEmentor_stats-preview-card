@@ -1,32 +1,45 @@
 <!DOCTYPE html>
   <html lang="en">
 <head>
+  <!-- viewport code -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <meta charset="UTF-8">
 
+  <!-- FONT CODE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Overpass:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <!-- TITLE CODE -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <div class="primary-container">
     <main class="main-wrapper">
       <div class="left-container">
-        <h1>Get <span>insights</span> that help your business grow.</h1>
+   
+        <h1>Get <span class="accent">insights</span> that help your business grow.</h1>
 
         <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
         experience, and overall efficiency.</p>
 
-        <div>
-          10k+ <span>companies</span>
-        </div>
+        <div class="left-container-stats">
+          <div class="left-container-stats-detail">
+            10k+ <span class="left-container-stats-decoration">companies</span>
+          </div>
 
-        <div>
-          314 <span>>templates</span>
-        </div>
+          <div class="left-container-stats-detail">
+            314 <span class="left-container-stats-decoration">templates</span>
+          </div>
 
-        <div>
-          12m+ <span>queries</span>
+          <div class="left-container-stats-detail">
+            12m+ <span class="left-container-stats-decoration">queries</span>
+          </div>
         </div>
       </div>
       <div class="right-container">
