@@ -19,6 +19,8 @@
 
 }
 
+/* HTML ELEMENTS */
+
 body {
 
     background-color: var(--clr-primary-background);
@@ -26,23 +28,25 @@ body {
     font-family: "Lexend Deca", "sans-serif";
 }
 
+footer {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height:5vh;
+}
+
 img {
 
     display: block;
 }
 
+/* HTML CLASSES */
+
 .accent {
 
     color:var(--clr-accent);
-}
-
-.primary-container {
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height:95vh;
-
 }
 
 .main-wrapper {
@@ -54,6 +58,15 @@ img {
 
     background-color: var(--clr-primary-card-background);
     border-radius: 1.0rem;
+
+}
+
+.primary-container {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:95vh;
 
 }
 
@@ -113,11 +126,47 @@ img {
     filter: contrast(1.5);
 }
 
-footer {
 
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height:5vh;
+
+@media (max-width:1075px) {
+
+    /* HTML ELEMENTS */
+
+    img {
+
+        max-width: 22rem;
+    }
+
+    .main-wrapper {
+
+        display: flex;
+        font-size: 0.90rem;
+        flex-direction: column;
+        position:absolute;
+        max-width: 20rem;
+
+    }
+
+    .left-container {
+
+        order:2;
+        text-align: center;
+        padding:1.5rem;
+        max-width: 20rem;
+    }
+
+    .left-container-stats {
+
+        flex-direction: column;
+        padding: 0;
+        gap:2rem;
+    }
+
+    .right-container {
+
+        margin: 0;
+    }
+
+
+    
 }
