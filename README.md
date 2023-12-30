@@ -26,10 +26,10 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop Layout Screenshot
-![](/screenshot_desktop.jpg)
+![](screenshot_desktop.JPG)
 
 #### Mobile Layout Screenshot
-![](/screenshot_mobile.jpg)
+![](screenshot_mobile.JPG)
 
 ### Links
 
